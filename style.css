@@ -1,0 +1,138 @@
+.nav .navbar-brand img {
+    height: 65px;
+  }
+.nav .navbar-light .navbar-nav .nav-link {
+	color: #707070;
+}
+
+
+.slider img {
+    width: 100%;
+  }
+  
+  .slider .carousel-indicators .active {
+    background: linear-gradient(to left, green, yellow);
+    height: 8px;
+    width: 55px;
+    border-radius: 5px;
+  }
+  .slider .carousel-indicators li{
+    background: #CECECE;
+    height: 8px;
+    width: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+.slider h1 {
+    color: #1f1f1f;
+  }
+  .slider p {
+    color: #707070; 
+  }
+  
+  .buy-btn {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .buy-btn:hover{
+      text-decoration: none;
+  }
+
+  
+    .card {
+    padding: 20px;
+  }
+  .card img {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+.card-title {
+    font-size: 24px;
+    color: #1f1f1f;
+  }
+  
+  .card-text {
+    color: #707070;
+  }
+
+  .see-btn {
+    font-size: 22px;
+    color: #ff9d00;
+    text-decoration: none;
+  }
+  .see-btn:hover {
+    text-decoration: none;
+  }
+  .head {
+    padding: 25px 0px;
+  }
+  .card {
+    box-shadow: 0 0 10px #DDE2E8;
+  }
+
+  .catagory{padding: 40px 0px;}
+  .catagory h2{font-size: 35px;}
+
+  
+.catagory h2 {
+  position: relative;
+}
+.catagory h2:after{
+  position: absolute;
+  top: 45px;
+  left: 18px;
+  height: 8px;
+  width: 120px;
+  content: "";
+  background: linear-gradient(to left, green, yellow);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.bag , .perfume, .shoe {
+  padding: 20px 0px;
+}
+.catagory h5 {
+  margin-top: 20px;
+}
+.catagory h2 {
+	margin-bottom: 60px;
+}
+
+
+.bag {
+  border: 1px solid transparent;
+  width: 48%;
+  float: left;
+  border-radius: 0 0 0 20px;
+  box-shadow: 0 0 20px;
+  margin-top: 100px
+}
+.perfume{
+  border: 1px solid transparent;
+  width: 48%;
+  border-radius: 0 0 20px 0;
+  box-shadow: 0 0 20px;
+  margin-left: 1%;
+  float: right;
+}
+.shoe{
+  border: 1px solid transparent;
+  width: 48%;
+  border-radius: 0 0 20px 0;
+  box-shadow: 0 0 20px;
+  margin-left: 1%;
+  float: right;
+  margin-top: 20px;
+}
